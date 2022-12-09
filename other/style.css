@@ -1,5 +1,39 @@
 body {
     color: navy;
     background-color: darkseagreen;
-    font-family: Merriweather; "Times New Roman"; serif;
+    font-family: Merriweather, "Times New Roman", serif;
+}
+
+h1,
+button {
+    background-color: lightyellow;
+    text-align: center;
+    border-color: coral;
+}
+
+a:link {
+    color: maroon;
+    font-weight: bold;
+}
+
+a:visited {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+h2,
+h3,
+h4 {
+    color: darkgoldenrod;
+}
+
+h1 {
+    color: coral;
+    font-size: 60px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+button a:visited {
+    color: coral;
 }
